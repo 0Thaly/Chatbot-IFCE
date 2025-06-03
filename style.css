@@ -49,7 +49,7 @@ df-messenger {
     /* Cores para a interface do chatbot */
     --df-messenger-button-titlebar-color: #46A151;
     --df-messenger-bot-message: #d7fcdb;
-    --df-messenger-chat-background-color: #f4f4f4;
+    --df-messenger-chat-background-color: transparent;
     --df-messenger-font-color: #333333;
     --df-messenger-send-icon-color: #46A151;
     --df-messenger-input-box-color: white;
