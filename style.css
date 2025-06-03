@@ -44,12 +44,10 @@ df-messenger {
     position: fixed;
     bottom: 20px;
     right: 20px;
-}
-df-messenger {
-   df-messenger-bot-message: #46A151;
-   df-messenger-chat-background-color: #fafafa;
-   df-messenger-font-color: white;
+    df-messenger-bot-message: #46A151;
+    df-messenger-chat-background-color: #fafafa;
+    df-messenger-font-color: white;
     df-messenger-minimized-chat-close-icon-color: #46A151;
-   df-messenger-send-icon: #878fac;
-   df-messenger-user-message: #479b3d;
+    df-messenger-send-icon: #878fac;
+    df-messenger-user-message: #479b3d;
   }
