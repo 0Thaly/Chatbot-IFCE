@@ -47,12 +47,12 @@ df-messenger {
   }
 <style>
   df-messenger {
-   df-messenger-bot-message: #878fac;
-   df-messenger-button-titlebar-color: #df9b56;
-   df-messenger-chat-background-color: #fafafa;
+   df-messenger-bot-message: #46A151;
+   df-messenger-button-titlebar-color: #46A151;
+   df-messenger-chat-background-color: #46A151;
    df-messenger-font-color: white;
    df-messenger-minimized-chat-close-icon-color: #46A151;
-   df-messenger-send-icon: #878fac;
-   df-messenger-user-message: #479b3d;
+   df-messenger-send-icon: #46A151;
+   df-messenger-user-message: #46A151;
   }
 </style>
