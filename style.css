@@ -39,20 +39,26 @@ footer {
     width: 100%;
 }
 
+/* Estilos específicos para o chatbot do Dialogflow Messenger */
 df-messenger {
-    z-index: 999; 
+    z-index: 999;
     position: fixed;
     bottom: 20px;
     right: 20px;
-  }
-<style>
-  df-messenger {
-   bot-message: #46A151;
-   button-titlebar-color: #46A151;
-   chat-background-color: #46A151;
-   font-color: white;
-   minimized-chat-close-icon-color: #46A151;
-   send-icon: #46A151;
-   user-message: #46A151;
-  }
-</style>
+
+    /* Cores para a interface do chatbot */
+    --df-messenger-button-titlebar-color: #46A151;
+    --df-messenger-chat-background-color: #f4f4f4;
+    --df-messenger-font-color: #333333;
+    --df-messenger-send-icon-color: #46A151;
+    --df-messenger-input-box-color: white;
+
+    /* Cores das bolhas de mensagem */
+    --df-messenger-bot-message-background-color: #e0e0e0;
+    --df-messenger-bot-message-font-color: #333333;
+    --df-messenger-user-message-background-color: #46A151;
+    --df-messenger-user-message-font-color: white;
+
+    /* Opcional: cor do ícone de minimizar/fechar */
+    --df-messenger-minimized-chat-close-icon-color: #46A151;
+}
