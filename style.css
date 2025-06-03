@@ -60,6 +60,6 @@ df-messenger {
     --df-messenger-user-message-background-color: #46A151;
     --df-messenger-user-message-font-color: white;
 
-    /* Opcional: cor do ícone de minimizar/fechar */
+    /* Cor do ícone de minimizar/fechar */
     --df-messenger-minimized-chat-close-icon-color: #46A151;
 }
