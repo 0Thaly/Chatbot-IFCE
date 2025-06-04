@@ -45,13 +45,13 @@ df-messenger {
     position: fixed;
     bottom: 20px;
     right: 20px;
-
+    
     /* Cores para a interface do chatbot */
     --df-messenger-button-titlebar-color: #46A151;
     --df-messenger-bot-message: #d7fcdb;
     --df-messenger-chat-background-color: #f4f4f4;
     --df-messenger-font-color: #333333;
-    --df-messenger-send: #46A151;
+    --df-messenger-send-icon: #46A151;
     --df-messenger-input-box-color: white;
 
     /* Cores das bolhas de mensagem */
