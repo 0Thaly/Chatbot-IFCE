@@ -1,45 +1,120 @@
-body {
-    font-family: garamond;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-header {
-    background-color: #46A151;
-    color: white;
-    padding: 1em 0;
-    text-align: center;
-}
-nav {
-    background-color: rgb(47, 146, 77);
-    color: white;
-    padding: 0.5em 0;
-    text-align: center;
-}
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 1em;
-}
-.container {
-    width: 80%;
-    margin: 20px auto;
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-footer {
-    background-color: #46A151;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+        /* Estilos Globais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* Cabeçalho */
+        header {
+            background-color: #2e7d32; /* Verde */
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            color: white;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        
+        .menu {
+            display: flex;
+            list-style: none;
+        }
+        
+        .menu li {
+            margin-left: 2rem;
+        }
+        
+        .menu a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .menu a:hover {
+            color: #ffeb3b;
+        }
+        
+        /* Seção Hero */
+        .hero {
+            background-color: #2e7d32; /* Verde (alterado de vermelho) */
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        /* Seção Informações */
+        .info {
+            padding: 3rem 0;
+            background-color: #f5f5f5;
+        }
+        
+        .info-section {
+            background-color: white;
+            padding: 2rem;
+            margin-bottom: 3rem;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        
+        .info-section h3 {
+            color: #2e7d32; /* Verde (alterado de vermelho) */
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 0.5rem;
+        }
+        
+        .info-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-top: 1.5rem;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        }
+        /*icones*/
+        img{
+            width:15px;
+            margin-right:5px;
+            }
+        
+        /* Rodapé */
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
 
-/* Estilos específicos para o chatbot do Dialogflow Messenger */
+        /* Estilos específicos para o chatbot do Dialogflow Messenger */
 df-messenger {
     z-index: 999;
     position: fixed;
@@ -49,7 +124,7 @@ df-messenger {
     /* Cores para a interface do chatbot */
     --df-messenger-button-titlebar-color: #46A151;
     --df-messenger-bot-message: #d7fcdb;
-    --df-messenger-chat-background-color: #f4f4f4;
+    --df-messenger-chat-background-color: transparent;
     --df-messenger-font-color: #333333;
     --df-messenger-send-icon: #2b9438;
     --df-messenger-input-box-color: white;
