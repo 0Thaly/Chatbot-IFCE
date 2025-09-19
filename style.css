@@ -30,7 +30,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    z-index: 1000;
+    z-index: 2000;
 }
 
 .logo {
@@ -159,7 +159,7 @@ footer {
 /* ============================= */
 /* Estilos específicos para o chatbot Dialogflow Messenger */
 df-messenger {
-    z-index: 999;
+    z-index: 1000;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -216,5 +216,6 @@ df-messenger {
         border-radius: 0;
     }
 }
+
 
 
