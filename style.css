@@ -29,6 +29,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1000;
 }
 
 .logo {
@@ -214,3 +215,4 @@ df-messenger {
         border-radius: 0;
     }
 }
+
