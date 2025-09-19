@@ -21,7 +21,7 @@
         }
 
         .container {
-            width: 100%;
+            width: 90%;
             max-width: 1200px;
             margin: 0 auto;
         }
@@ -212,5 +212,6 @@
             /* Cor do ícone de minimizar fechar */
             --df-messenger-minimized-chat-close-icon-color: #2e7d32;
         }
+
 
 
