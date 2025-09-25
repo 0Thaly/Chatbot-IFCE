@@ -131,7 +131,7 @@ img {
 }
 
 .item-contexto p {
-    margin: 0;
+    margin: 20px;
     padding: 0;
     line-height: 1.5;
 }
@@ -216,6 +216,7 @@ df-messenger {
         border-radius: 0;
     }
 }
+
 
 
 
