@@ -1,224 +1,218 @@
 /* Estilos Globais */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
 }
 
 body {
-    background-color: #f5f5f5;
-    color: #333;
-    line-height: 1.6;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
 }
 
 /* Cabeçalho */
 header {
-    background-color: #2e7d32; /* Verde */
-    padding: 1rem 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #2e7d32; /* Verde */
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1000;
 }
 
 .logo {
-    width: 300px;
-    max-height: auto;
+  width: 300px;
+  max-height: auto;
 }
 
 .menu {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 .menu li {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
 
 .menu a {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
 }
 
 .menu a:hover {
-    color: #ffeb3b;
+  color: #ffeb3b;
 }
 
 /* Seção Hero */
 .hero {
-    background-color: #2e7d32;
-    color: white;
-    padding: 3rem 0;
-    text-align: center;
+  background-color: #2e7d32;
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
 }
 
 .hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 /* Seção Informações */
 .info {
-    padding: 3rem 0;
-    background-color: #f5f5f5;
+  padding: 3rem 0;
+  background-color: #f5f5f5;
 }
 
 .info-section {
-    background-color: white;
-    padding: 2rem;
-    margin-bottom: 3rem;
-    border-radius: 8px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .info-section h3 {
-    color: #2e7d32;
-    margin-bottom: 1rem;
-    border-bottom: 2px solid #e0e0e0;
-    padding-bottom: 0.5rem;
+  color: #2e7d32;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
 }
 
 .info-image {
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-top: 1.5rem;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Ícones */
 img {
-    width: 15px;
-    margin-right: 5px;
+  width: 15px;
+  margin-right: 5px;
 }
 
 /* Estilo para cada item individual */
 .item-contexto {
-    display: flow-root;
-    margin-bottom: 20px;
-    padding-bottom: 15px;
-    border-bottom: 1px dashed #eee;
+  display: flow-root;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #eee;
 }
 
 .item-contexto:last-child {
-    border-bottom: none;
-    margin-bottom: 0;
+  border-bottom: none;
+  margin-bottom: 0;
 }
 
 .icone-ao-lado {
-    width: 70px;
-    height: auto;
-    margin-right: 15px;
-    float: left;
-    border: 1px solid #ccc;
-    padding: 3px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 70px;
+  height: auto;
+  margin-right: 15px;
+  float: left;
+  border: 1px solid #ccc;
+  padding: 3px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .item-contexto p {
-    margin: 20px;
-    padding: 0;
-    line-height: 1.5;
+  margin: 20px;
+  padding: 0;
+  line-height: 1.5;
 }
 
 .item-contexto p a {
-    word-wrap: break-word;
-    text-decoration: none;
-    color: #007bff;
+  word-wrap: break-word;
+  text-decoration: none;
+  color: #007bff;
 }
 
 .item-contexto p a:hover {
-    text-decoration: underline;
-    color: #0056b3;
+  text-decoration: underline;
+  color: #0056b3;
 }
 
 /* Rodapé */
 footer {
-    background-color: #2e7d32;
-    color: white;
-    text-align: center;
-    padding: 2rem 0;
-    margin-top: 2rem;
+  background-color: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 2rem;
 }
 
 /* ============================= */
 /* Estilos específicos para o chatbot Dialogflow Messenger */
 df-messenger {
-    z-index: 999;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+  z-index: 999;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 
-    /* Tamanho padrão */
-    width: 100%;
-    max-width: 400px;
-    height: 70vh;
+  /* Tamanho padrão */
+  width: 100%;
+  max-width: 400px;
+  height: 70vh;
 
-    /* Cores para a interface do chatbot */
-    --df-messenger-button-titlebar-color: #2e7d32;
-    --df-messenger-bot-message: #d7fcdb;
-    --df-messenger-chat-background-color: transparent;
-    --df-messenger-font-color: #333333;
-    --df-messenger-send-icon: #2b9438;
-    --df-messenger-input-box-color: white;
+  /* Cores para a interface do chatbot */
+  --df-messenger-button-titlebar-color: #2e7d32;
+  --df-messenger-bot-message: #d7fcdb;
+  --df-messenger-chat-background-color: transparent;
+  --df-messenger-font-color: #333333;
+  --df-messenger-send-icon: #2b9438;
+  --df-messenger-input-box-color: white;
 
-    --df-messenger-bot-message-background-color: #e0e0e0;
-    --df-messenger-bot-message-font-color: #333333;
-    --df-messenger-user-message-background-color: #2e7d32;
-    --df-messenger-user-message-font-color: white;
+  --df-messenger-bot-message-background-color: #e0e0e0;
+  --df-messenger-bot-message-font-color: #333333;
+  --df-messenger-user-message-background-color: #2e7d32;
+  --df-messenger-user-message-font-color: white;
 
-    --df-messenger-minimized-chat-close-icon-color: #2e7d32;
+  --df-messenger-minimized-chat-close-icon-color: #2e7d32;
 }
 
 /* Responsividade */
 @media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-    }
+  nav {
+    flex-direction: column;
+  }
 
-    .menu {
-        flex-direction: column;
-        align-items: center;
-    }
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .menu li {
-        margin: 0.5rem 0;
-    }
+  .menu li {
+    margin: 0.5rem 0;
+  }
 
-    .hero h1 {
-        font-size: 2rem;
-    }
+  .hero h1 {
+    font-size: 2rem;
+  }
 
-    .info-section {
-        padding: 1.5rem;
-    }
+  .info-section {
+    padding: 1.5rem;
+  }
 
-    df-messenger {
-        right: 0;
-        bottom: 0;
-        width: 100%;
-        height: 90vh; /* ocupa quase toda a tela no celular */
-        border-radius: 0;
-    }
+  df-messenger {
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90vh; /* ocupa quase toda a tela no celular */
+    border-radius: 0;
+  }
 }
-
-
-
-
-
-
