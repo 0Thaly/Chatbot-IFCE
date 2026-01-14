@@ -3,11 +3,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
-
-  /*linhas novas */
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
 header {
   background-color: #46a151;
@@ -34,7 +29,6 @@ nav a {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-/*
 footer {
   background-color: #46a151;
   color: white;
@@ -43,16 +37,6 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-}
-*/
-
-footer {
-  background-color: #46a151;
-  color: white;
-  text-align: center;
-  padding: 1em 0;
-  width: 100%;
-  margin-top: auto;
 }
 
 df-messenger {
